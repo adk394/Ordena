@@ -156,7 +156,7 @@ function renderPage(array $result, string $error): void
         <main class="shell">
             <section class="intro">
                 <div class="eyebrow">HERRAMIENTA DE DATOS</div>
-                <h1>Limpieza<br>de datos</h1>
+                <h1>Limpieza<br><span class="title-accent">de datos</span></h1>
                 <p class="intro-copy">Normaliza campos, sugiere categorías y elimina filas duplicadas de una hoja de cálculo.</p>
             </section>
 
