@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ordena
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health.html
+    envVars:
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
